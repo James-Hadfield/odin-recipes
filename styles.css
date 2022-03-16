@@ -17,15 +17,37 @@ h4 {
     padding: 20px;
     background-color: rgb(157, 173, 168);
     box-sizing: border-box;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px;
     border-bottom: 14px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 
 p {
     margin: 30px;
     text-align: justify;
+    display: block;
 }
+
+.paragraphs {
+    border: 1px solid black;
+    margin: 20px;
+    margin-top: -20px;
+    background-color: white;
+    padding: 10px;
+}
+
+.pcontent {
+    background-color: white;
+}
+
+ul,
+li,
+ol {
+    background-color: white;
+}
+
 
 .famous {
     font-style: italic;
@@ -64,5 +86,4 @@ p {
     margin-right: auto ;
     max-width: 400px;
     max-height: 400px;
-    
 }
